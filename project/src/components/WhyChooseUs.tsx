@@ -63,11 +63,11 @@ const WhyChooseUs = () => {
           ))}
         </div>
 
-        <div className="text-center mt-16">
+        {/* <div className="text-center mt-16">
           <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all transform hover:scale-105">
             Conheça Nossa Estrutura
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

@@ -53,16 +53,16 @@ const testimonials = [
                 
                 <Quote className="w-8 h-8 text-green-600 mb-4" />
                 
-                <p className="text-gray-600 mb-6 leading-relaxed">
+                <p className="text-gray-600 mb-6 leading-relaxed text-justify">
                   "{testimonial.text}"
                 </p>
                 
                 <div className="flex items-center">
-                  <img 
+                  {/* <img 
                     src={testimonial.image} 
                     alt={testimonial.name}
                     className="w-12 h-12 rounded-full mr-4"
-                  />
+                  /> */}
                   <div>
                     <h4 className="font-semibold text-gray-800">{testimonial.name}</h4>
                   </div>

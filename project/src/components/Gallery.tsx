@@ -119,7 +119,7 @@ const Gallery = () => {
               />
               
               <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white text-center">
-                <h3 className="text-xl font-semibold mb-2">{images[selectedImage].title}</h3>
+                {/* <h3 className="text-xl font-semibold mb-2">{images[selectedImage].title}</h3> */}
                 <p className="text-sm opacity-75">
                   {selectedImage + 1} de {images.length}
                 </p>

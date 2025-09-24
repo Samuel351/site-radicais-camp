@@ -35,7 +35,7 @@ const Location = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <Navigation className="w-6 h-6 text-green-600 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Distâncias</h4>
@@ -45,9 +45,9 @@ const Location = () => {
                       <li>• Sorocaba: aproximadamente 90 km</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <Clock className="w-6 h-6 text-green-600 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Tempo de Viagem</h4>
@@ -57,15 +57,12 @@ const Location = () => {
                       <li>• Transfer privado disponível</li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="flex items-start">
                   <Phone className="w-6 h-6 text-green-600 mr-4 mt-1 flex-shrink-0" />
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-2">Precisa de Ajuda?</h4>
-                    <p className="text-gray-600 mb-2">
-                      Nossa equipe pode ajudar com direções detalhadas
-                    </p>
                     <p className="text-green-600 font-semibold">
                       (11) 99999-9999
                     </p>

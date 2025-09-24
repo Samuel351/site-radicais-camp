@@ -50,7 +50,6 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Telefone</h4>
                   <p className="text-gray-600">(11) 99999-9999</p>
-                  <p className="text-gray-600">(11) 3333-4444</p>
                 </div>
               </div>
 
@@ -59,7 +58,6 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">E-mail</h4>
                   <p className="text-gray-600">contato@radicalcamp.com.br</p>
-                  <p className="text-gray-600">eventos@radicalcamp.com.br</p>
                 </div>
               </div>
 
@@ -68,14 +66,14 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Endereço</h4>
                   <p className="text-gray-600">
-                    Estrada da Natureza, 1234<br />
-                    Zona Rural - São Paulo, SP<br />
-                    CEP: 12345-678
+                    Estr. Bairro dos Almeidas<br />
+                    Torre de Pedra - SP<br />
+                    CEP: 18265-000
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <Clock className="w-6 h-6 text-green-600 mr-4 mt-1" />
                 <div>
                   <h4 className="font-semibold text-gray-800 mb-1">Horário de Atendimento</h4>
@@ -85,7 +83,7 @@ const Contact = () => {
                     Domingos: Sob agendamento
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* <div className="mt-8 p-6 bg-green-50 rounded-xl">

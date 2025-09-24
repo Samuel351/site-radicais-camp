@@ -2,6 +2,7 @@ import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
+  var date = new Date();
   return (
     <footer className="bg-gray-800 text-white py-16">
       <div className="container mx-auto px-4">
@@ -13,7 +14,7 @@ const Footer = () => {
               Criamos experiências únicas em contato com a natureza. Há mais de 8 anos 
               transformando sonhos em realidade através de eventos memoráveis.
             </p>
-            <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
                 <Facebook className="w-6 h-6" />
               </a>
@@ -23,7 +24,7 @@ const Footer = () => {
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
                 <Youtube className="w-6 h-6" />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Links Rápidos */}
@@ -64,16 +65,16 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Radical Camp. Todos os direitos reservados.
+              © {date.getFullYear()} Radical Camp. Todos os direitos reservados.
             </p>
-            <div className="flex space-x-6 text-sm">
+            {/* <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
                 Política de Privacidade
               </a>
               <a href="#" className="text-gray-400 hover:text-green-400 transition-colors">
                 Termos de Uso
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

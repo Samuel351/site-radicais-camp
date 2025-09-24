@@ -46,7 +46,7 @@ const About = () => {
           <div className="relative">
             <div 
               className="h-96 bg-cover bg-center rounded-xl shadow-lg"
-              style={{ backgroundImage: 'url(/VIT_0171.jpg)' }}
+              style={{ backgroundImage: 'url(/HOUSE.jpg)' }}
             >
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent rounded-xl"></div>
             </div>

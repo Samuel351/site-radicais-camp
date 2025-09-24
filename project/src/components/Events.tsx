@@ -7,21 +7,21 @@ const Events = () => {
       icon: <GraduationCap className="w-8 h-8" />,
       title: "Acampamentos Escolares",
       description: "No Radical Camp, os alunos vivem experiências educativas e divertidas em contato direto com a natureza. Nossa estrutura oferece segurança, atividades de integração e aprendizado, promovendo união, aventura e lembranças que ficam para sempre.",
-      image: "/VIT_0171.jpg",
+      image: "/ESCOLA.jpg",
       features: []
     },
     {
       icon: "",
       title: "Eventos Familiares",
       description: "Momentos especiais merecem um lugar único. No Radical Camp, sua família encontra estrutura completa em meio à natureza para aniversários, encontros, confraternizações e celebrações inesquecíveis. Um espaço acolhedor, seguro e cheio de diversão para todas as idades.",
-      image: "/workshop.jpg",
+      image: "/FAMILY.jpg",
       features: []
     },
     {
       icon: <Users className="w-8 h-8" />,
       title: "Retiros Religiosos",
       description: "Adicionar a descrição: O Radical Camp é o cenário ideal para momentos de fé e reflexão. Em meio à tranquilidade da natureza, oferecemos estrutura completa para encontros espirituais, com espaços que favorecem a paz, a união",
-      image: "/dji_fly_20250707_143138_0069_1751909781010_photo.jpg",
+      image: "/RETIRO.jpg",
       features: []
     },
     {
@@ -94,9 +94,11 @@ const Events = () => {
                       </li>
                     ))}
                   </ul>
-                  <button className="mt-4 w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors">
-                    Solicitar Orçamento
-                  </button>
+                  <a href="#contato">
+                    <button className="mt-4 w-full bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded-lg transition-colors">
+                      Solicitar Orçamento
+                    </button>
+                  </a>
                 </div>
               </div>
             ))}
