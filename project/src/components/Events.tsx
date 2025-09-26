@@ -1,6 +1,3 @@
-import React from 'react';
-import { Calendar, Users, Heart, GraduationCap, Building, MapPin, Clock, icons } from 'lucide-react';
-
 const Events = () => {
   const eventTypes = [
     {
@@ -31,27 +28,6 @@ const Events = () => {
       image: "family.jpg",
       features: []
     },
-  ];
-
-  const upcomingEvents = [
-    {
-      date: "15 Mar",
-      title: "Retiro de Yoga e Meditação",
-      participants: "25 pessoas",
-      image: "/dji_fly_20250707_143054_0067_1751909782551_photo.jpg"
-    },
-    {
-      date: "22 Mar",
-      title: "Casamento ao Ar Livre",
-      participants: "80 pessoas",
-      image: "/dji_fly_20250707_143138_0069_1751909781010_photo.jpg"
-    },
-    {
-      date: "05 Abr",
-      title: "Acampamento Escolar",
-      participants: "45 estudantes",
-      image: "/VIT_0171.jpg"
-    }
   ];
 
   return (
