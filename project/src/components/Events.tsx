@@ -25,7 +25,7 @@ const Events = () => {
       icon: "",
       title: "Workshop",
       description: "O Radical Camp oferece o ambiente perfeito para aprendizado e desenvolvimento. Com áreas ao ar livre e infraestrutura completa, seus workshops ganham um toque especial de imersão, criatividade e conexão com a natureza.",
-      image: "family.jpg",
+      image: "/workshop.jpg",
       features: []
     },
   ];
