@@ -24,11 +24,6 @@ const WhyChooseUs = () => {
       description: "Protocolos de segurança rigorosos e equipe treinada para emergências"
     },
     {
-      icon: <Clock className="w-12 h-12" />,
-      title: "Atendimento 24h",
-      description: "Suporte completo durante todo o evento, do planejamento à execução"
-    },
-    {
       icon: <MapPin className="w-12 h-12" />,
       title: "Localização Estratégica",
       description: "Fácil acesso e localização privilegiada, longe do barulho da cidade"

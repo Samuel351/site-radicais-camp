@@ -4,7 +4,7 @@ import { Calendar, Users, Heart, GraduationCap, Building, MapPin, Clock, icons }
 const Events = () => {
   const eventTypes = [
     {
-      icon: <GraduationCap className="w-8 h-8" />,
+      icon: "",
       title: "Acampamentos Escolares",
       description: "No Radical Camp, os alunos vivem experiências educativas e divertidas em contato direto com a natureza. Nossa estrutura oferece segurança, atividades de integração e aprendizado, promovendo união, aventura e lembranças que ficam para sempre.",
       image: "/ESCOLA.jpg",
@@ -18,7 +18,7 @@ const Events = () => {
       features: []
     },
     {
-      icon: <Users className="w-8 h-8" />,
+      icon: "",
       title: "Retiros Religiosos",
       description: "Adicionar a descrição: O Radical Camp é o cenário ideal para momentos de fé e reflexão. Em meio à tranquilidade da natureza, oferecemos estrutura completa para encontros espirituais, com espaços que favorecem a paz, a união",
       image: "/RETIRO.jpg",

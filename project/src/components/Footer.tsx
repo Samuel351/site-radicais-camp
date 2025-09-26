@@ -1,5 +1,6 @@
 import React from 'react';
 import { Phone, Mail, MapPin, Facebook, Instagram, Youtube } from 'lucide-react';
+import { EMAIL_CONTACT, PHONE_CONTACT } from '../constants/const-info';
 
 const Footer = () => {
   var date = new Date();
@@ -45,17 +46,18 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center">
                 <Phone className="w-4 h-4 mr-3 text-green-400" />
-                <span className="text-gray-300 text-sm">(11) 99999-9999</span>
+                <span className="text-gray-300 text-sm">{PHONE_CONTACT}</span>
               </div>
               <div className="flex items-center">
                 <Mail className="w-4 h-4 mr-3 text-green-400" />
-                <span className="text-gray-300 text-sm">contato@radicalcamp.com.br</span>
+                <span className="text-gray-300 text-sm">{EMAIL_CONTACT}</span>
               </div>
               <div className="flex items-start">
                 <MapPin className="w-4 h-4 mr-3 text-green-400 mt-1" />
                 <span className="text-gray-300 text-sm">
-                  Estrada da Natureza, 1234<br />
-                  Zona Rural - São Paulo, SP
+                    Estr. Bairro dos Almeidas<br />
+                    Torre de Pedra - SP<br />
+                    CEP: 18265-000
                 </span>
               </div>
             </div>

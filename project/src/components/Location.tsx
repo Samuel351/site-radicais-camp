@@ -1,5 +1,6 @@
 import React from 'react';
-import { MapPin, Navigation, Clock, Phone } from 'lucide-react';
+import { MapPin, Navigation, Clock, Phone, Mail } from 'lucide-react';
+import { EMAIL_CONTACT, PHONE_CONTACT } from '../constants/const-info';
 
 const Location = () => {
   return (
@@ -59,13 +60,23 @@ const Location = () => {
                   </div>
                 </div> */}
 
-                <div className="flex items-start">
-                  <Phone className="w-6 h-6 text-green-600 mr-4 mt-1 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800 mb-2">Precisa de Ajuda?</h4>
-                    <p className="text-green-600 font-semibold">
-                      (11) 99999-9999
-                    </p>
+                <div className="flex flex-col gap-5 items-start">
+                  <div className='flex flex-row'>
+                    <Phone className="w-6 h-6 text-green-600 mr-4 mt-1 flex-shrink-0" />
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-2">Precisa de Ajuda?</h4>
+                      <p className="text-green-600 font-semibold">
+                        {PHONE_CONTACT}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className='flex flex-row'>
+                    <Mail className="w-6 h-6 text-green-600 mr-4 mt-1" />
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">E-mail</h4>
+                      <p className="text-gray-600">{EMAIL_CONTACT}</p>
+                    </div>
                   </div>
                 </div>
               </div>
